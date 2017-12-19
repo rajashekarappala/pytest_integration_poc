@@ -18,4 +18,4 @@ class TestingViews(TestCase):
         self.assertEqual(add_numbers(3,"string") , "second argument is not a number")
 
     def test_if_adds(self):
-        self.assertEqual(add_numbers(4,5.6), 9.6)
+        self.assertEqual(add_numbers(4,5.6), 10.6)
