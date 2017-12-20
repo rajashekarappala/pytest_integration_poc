@@ -9,7 +9,7 @@ class TestingViews(TestCase):
         pass
 
     def test_both_strings(self):
-        self.assertEqual(add_numbers("string","df") , "Both arguments are not numbers")
+        self.assertEqual(add_numbers("string",4) , "Both arguments are not numbers")
 
     def test_first_is_string(self):
         self.assertEqual(add_numbers("string",4) , "first argument is not a number")
